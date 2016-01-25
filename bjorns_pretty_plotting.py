@@ -23,7 +23,7 @@ import matplotlib.gridspec as gridspec
 from mpl_toolkits.axes_grid1 import make_axes_locatable
 # If you want to use the new default matplotlib colourmaps, which you do!
 # See https://bids.github.io/colormap/ and place files in this directory.
-# import colormaps as cmaps
+import colormaps as cmaps
 # import csv
 
 
@@ -240,7 +240,7 @@ mat_show = ax3.matshow(mat, cmap=cmaps.inferno, aspect='equal',
                        vmin=np.min(mat), vmax=np.max(mat))
 # Alternative colour scheme = viridis
 ax3.xaxis.set_ticks_position('bottom')
-ax1.xaxis.set_ticks_position('both')
+ax3.xaxis.set_ticks_position('both')
 x_ints = 5
 y_ints = 3
 ax3.set_xticks(np.linspace(0, num_x-1, x_ints))
