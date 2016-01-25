@@ -1,6 +1,18 @@
 """
 An amalgamation of plotting routines to produce pretty plots with matplotlib.
-Original author Bjorn Sturmberg https://github.com/bjornsturmberg
+Original author: Bjorn Sturmberg <https://github.com/bjornsturmberg>.
+
+This file are released under the CC0 license / public domain dedication.
+We would appreciate credit if you use or redistribute this file,
+but do not impose any legal restrictions.
+
+To the extent possible under law, the persons who associated CC0 with
+bjorns_pretty_plotting have waived all copyright and related or neighboring
+rights to bjorns_pretty_plotting.
+
+You should have received a copy of the CC0 legalcode along with this
+work. If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
+
 """
 
 import numpy as np
