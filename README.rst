@@ -7,7 +7,7 @@ An amalgamation of plotting routines to produce pretty plots with matplotlib.
 ORIGIN
 ------
 
-Original author Bjorn Sturmberg `here <https://github.com/bjornsturmberg>`_
+Original author `Bjorn Sturmberg <https://github.com/bjornsturmberg>`_
 
 
 LICENSE
